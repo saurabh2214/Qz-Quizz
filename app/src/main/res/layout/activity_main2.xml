@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8BEAC"
+    tools:context=".MainActivity2">
+
+  <TextView
+      android:id="@+id/question"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:background="#FB8C00"
+      android:fontFamily="sans-serif-smallcaps"
+      android:text="@string/q1_what_is_the_range_of_values_that_can_be_stored_by_int_datatype_in_c"
+      android:textAlignment="center"
+      android:textAllCaps="false"
+      android:textColor="@color/black"
+      android:textSize="21dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.002"
+      tools:ignore="TextSizeCheck" />
+
+  <LinearLayout
+      android:layout_width="411dp"
+      android:layout_height="558dp"
+      android:background="#E8BEAC"
+      android:orientation="vertical"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/question">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/_2_31_to_2_31_1"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/_256_to_255"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/_2_63_to_2_63_1"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/_0_to_2_31_1"
+        app:cornerRadius="30dp" />
+
+  </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

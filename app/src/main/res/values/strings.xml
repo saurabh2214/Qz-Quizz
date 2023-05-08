@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QZ quizz</string>
+    <string name="q1_what_is_the_range_of_values_that_can_be_stored_by_int_datatype_in_c">Q1: What is the range of values that can be stored by int datatype in C?</string>
+    <string name="_2_31_to_2_31_1">-(2^31) to (2^31)-1</string>
+    <string name="_256_to_255">-256 to 255</string>
+    <string name="_2_63_to_2_63_1">-(2^63) to (2^63)-1</string>
+    <string name="answer">Answer</string>
+    <string name="_0_to_2_31_1">0 to (2^31)-1</string>
+</resources>
